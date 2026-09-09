@@ -1,0 +1,12 @@
+{
+  "name": "crator-motion-launch",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.31 preview",
+    "check": "npx --yes hyperframes@0.8.31 check",
+    "render": "npx --yes hyperframes@0.8.31 render --output renders/crator-motion-launch.mp4",
+    "publish": "npx --yes hyperframes@0.8.31 publish",
+    "build": "python3 scripts/build-editorial.py"
+  }
+}

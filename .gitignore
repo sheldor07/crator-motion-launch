@@ -1,0 +1,10 @@
+node_modules/
+.hyperframes/
+.thumbnails/
+.waveform-cache/
+__pycache__/
+.DS_Store
+.env
+.env.*
+renders/*
+!renders/crator-v42-centered-and-tighter.mp4

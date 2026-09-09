@@ -1,0 +1,3 @@
+# Working on this video
+
+Use the Hyperframes skills when available. Read the current files before editing: Studio can change the HTML. Edit source generators and regenerate with `npm run build`; preserve intentional Studio changes. Run `npm run check` after composition edits, and inspect rendered frames for composition and continuity. Keep the CLI pinned unless an upgrade passes validation. The approved film uses open-canvas motion, native ERPNext primitives, smooth camera movement and a 27.5-second timeline. Avoid repetitive title-and-card layouts. See README.md and STORYBOARD.md for context.

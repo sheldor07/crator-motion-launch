@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"></head><body><template><style>@font-face{font-family:'Switzer';src:url('assets/fonts/Switzer-Regular.woff2');font-weight:400}
+@font-face{font-family:'Switzer';src:url('assets/fonts/Switzer-Medium.woff2');font-weight:500}
+@font-face{font-family:'Switzer';src:url('assets/fonts/Switzer-Semibold.woff2');font-weight:600}
+@font-face{font-family:'Instrument Sans';src:url('assets/fonts/InstrumentSans-400.woff2');font-weight:400}
+@font-face{font-family:'Instrument Sans';src:url('assets/fonts/InstrumentSans-500.woff2');font-weight:500}
+@font-face{font-family:'Instrument Sans';src:url('assets/fonts/InstrumentSans-600.woff2');font-weight:600}
+@font-face{font-family:'Mona Sans';src:url('assets/fonts/MonaSans-400.woff2');font-weight:400}
+@font-face{font-family:'Mona Sans';src:url('assets/fonts/MonaSans-500.woff2');font-weight:500}
+@font-face{font-family:'Mona Sans';src:url('assets/fonts/MonaSans-600.woff2');font-weight:600}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-400.woff2');font-weight:400}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-500.woff2');font-weight:500}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-600.woff2');font-weight:600}
+*{box-sizing:border-box}#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:#faf7f5;color:#202323;font-family:Switzer,sans-serif;font-weight:400}.fill{position:absolute;inset:0;width:1920px;height:1080px}.display{position:absolute;margin:0;line-height:1.08;letter-spacing:-.035em;font-weight:400}.small{font-size:27px;letter-spacing:-.01em}.brand-anchor{position:absolute;left:105px;bottom:61px;width:147px;height:auto}.ui-stage{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden}.gridline{position:absolute;background:#363e3e}.module-item{position:absolute;width:510px;height:345px;text-align:center;color:#faf7f5}.module-item img{display:block;width:140px;height:140px;margin:0 auto}.module-name{font-size:54px;line-height:1.2;letter-spacing:-.035em;margin-top:38px;font-weight:400}.module-detail{font-size:26px;color:#bfc9c5;margin-top:18px}.native-ui h1{font-weight:400!important}.native-ui{font-weight:400}.native-ui [data-ui-prompt]{white-space:normal} .native-ui [class~="text-[#7c7c7c]"]{color:#707070}.native-ui [class~="text-[#c7c7c7]"]{color:#767676}.native-ui [class~="text-[#d45a08]"]{color:#b94f07}.native-ui [class~="text-[#e03e2d]"]{color:#da3c2c}.native-ui aside [class~="bg-[#f9693c]"]{color:#202323}.native-ui [class~="text-[#737373]/60"]{color:#737373} .native-ui [class~="text-[#737373]"]{color:#707070}.native-ui [class~="text-[#797065]"]{color:#746b60}.native-ui [class~="text-[#e7000b]"]{color:#d7000a}
+.offer-world{position:absolute;inset:0;transform-origin:0 0}
+.offer-sentence{position:absolute;left:80px;top:373px;width:1760px;text-align:center;font-size:112px;line-height:1.14;letter-spacing:-.04em;color:#202323}
+.crator-sentence{position:absolute;left:100px;top:448px;width:1720px;text-align:center;font-size:128px;line-height:1.14;letter-spacing:-.045em;color:#202323}
+.plan-sheet{position:absolute;width:1720px;height:650px;background:#fcfcfb;border:1px solid #e5e3df;border-radius:12px;padding:48px 54px;box-shadow:0 10px 0 #d9d8d2,0 23px 28px #2023231b;font-family:Inter,sans-serif;transform-origin:50% 50%}
+.plan-heading{font-size:48px;margin-bottom:34px;letter-spacing:-.03em}
+.plan-row{height:108px;display:grid;grid-template-columns:360px 1fr;align-items:center;gap:28px;transform-origin:50% 50%}
+.plan-label{font-size:34px;white-space:nowrap}.plan-track{height:34px;background:repeating-linear-gradient(90deg,#ecebe8 0 68px,#fcfcfb 68px 72px)}.plan-bar{height:34px;background:#202323;border-radius:6px;transform-origin:0 50%}.plan-row:last-child .plan-bar{background:#df9771}
+.implementation-quote{position:absolute;left:2395px;top:1160px;width:960px;height:800px;transform-origin:50% 50%;color:#202323;filter:drop-shadow(0 14px 18px #20232320);font-family:Inter,sans-serif}
+.estimate-paper{position:absolute;inset:0;width:960px;height:800px}
+.estimate-title{position:absolute;left:56px;top:43px;font-size:48px;font-weight:500;letter-spacing:-.035em}
+.estimate-subtitle{position:absolute;left:56px;top:111px;font-size:28px;color:#626561}
+.estimate-rule{position:absolute;left:56px;top:176px;width:848px;height:2px;background:#deded8}
+.estimate-scope{position:absolute;left:56px;top:202px;font-size:24px;color:#626561}
+.estimate-lines{position:absolute;left:56px;top:246px;width:848px}
+.estimate-line{height:62px;display:flex;align-items:center;border-bottom:1px solid #e9e9e4;font-size:32px;gap:24px}
+.estimate-line-number{font-size:22px;color:#73756f;width:32px}.estimate-included{margin-left:auto;font-size:24px;color:#626561}
+.estimate-total-rule{position:absolute;left:56px;top:527px;width:848px;border-top:2px dashed #b9bab3}
+.estimate-total-label{position:absolute;left:56px;top:557px;font-size:30px}
+.quote-price{position:absolute;left:56px;top:608px;font-size:150px;line-height:1;letter-spacing:-.055em;white-space:nowrap}
+.new-plan{left:100px;top:215px;transform-origin:50% 50%}
+.price-world{position:absolute;inset:0;transform-origin:450px 600px}
+.price-logo{position:absolute;left:360px;top:508px;width:180px;height:180px}
+.price-copy{position:absolute;left:610px;top:359px;width:1130px;transform-origin:0 50%}
+.price-start{font-size:56px;letter-spacing:-.025em;margin-bottom:20px}.price-value{font-size:280px;line-height:1;letter-spacing:-.06em;white-space:nowrap}.price-unit{font-size:92px;letter-spacing:-.04em;margin-left:12px}
+
+#new-plan{box-shadow:0 10px 0 #ddd4c9,0 23px 28px #20232314}
+#price-copy{left:2720px;top:528px;width:1560px;text-align:center;font-size:128px;line-height:1.125;letter-spacing:-.04em;font-weight:400}
+.offer-close-headline{position:absolute;left:180px;top:528px;width:1560px;text-align:center;font-size:128px;line-height:1.125;letter-spacing:-.04em;font-weight:400;color:#fcfcfb}
+#runway{position:absolute;left:0;top:0;width:4300px;height:1080px;overflow:visible}
+</style><div id="root" data-composition-id="result" data-start="0" data-duration="4" data-width="1920" data-height="1080"><div class="fill" style="background:#F6F0E8"></div><div id="new-sentence" class="crator-sentence">Crator takes weeks</div><div id="fast-world" class="offer-world" data-layout-allow-overflow><div id="new-plan" class="plan-sheet new-plan" data-layout-allow-overflow style="visibility:hidden"><div class="plan-heading">Implementation plan</div><div id="new-row-0" class="plan-row"><div class="plan-label">Discovery</div><div class="plan-track"><div id="new-bar-0" class="plan-bar" style="margin-left:0%;width:38%"></div></div></div><div id="new-row-1" class="plan-row"><div class="plan-label">Data migration</div><div class="plan-track"><div id="new-bar-1" class="plan-bar" style="margin-left:18%;width:55%"></div></div></div><div id="new-row-2" class="plan-row"><div class="plan-label">Configuration</div><div class="plan-track"><div id="new-bar-2" class="plan-bar" style="margin-left:42%;width:48%"></div></div></div><div id="new-row-3" class="plan-row"><div class="plan-label">Go-live</div><div class="plan-track"><div id="new-bar-3" class="plan-bar" style="margin-left:87%;width:13%"></div></div></div></div><svg id="runway" viewBox="0 0 4300 1080" aria-hidden="true"><path id="runway-line" d="M830 733 H2200 C2320 733 2320 720 2440 720 H4060" fill="none" stroke="#D77B4E" stroke-width="12" stroke-linecap="round"/><circle id="runway-dot" cx="830" cy="733" r="20" fill="#D77B4E"/></svg><div id="price-copy" class="price-copy" style="visibility:hidden">Start your free trial</div></div><div id="offer-close-ink" class="fill" style="background:#202323;clip-path:polygon(400px 720px,1520px 720px,1520px 720px,400px 720px)"><img id="offer-close-logo" src="assets/brand/crator_logo_full_white.svg" alt="Crator" style="position:absolute;left:750px;top:328px;width:420px;height:130px;object-fit:contain"><div id="offer-close-headline" data-layout-allow-overlap class="offer-close-headline">Start your free trial</div></div></div><script>const tl=gsap.timeline({paused:true});
+const runway=document.querySelector('#runway-line');
+const runwayLength=runway.getTotalLength();
+const travel={p:0};
+function positionDot(){const p=runway.getPointAtLength(travel.p*runwayLength);gsap.set('#runway-dot',{x:p.x-830,y:p.y-733});}
+gsap.set('#runway-line',{strokeDasharray:runwayLength,strokeDashoffset:runwayLength});
+gsap.set('#runway-dot,#runway-line',{autoAlpha:0});
+// The sentence reads, then a short vertical mask reveals the timeline in place.
+tl.to('#new-sentence',{autoAlpha:0,duration:.24,ease:'sine.inOut'},.66);
+tl.fromTo('#new-plan',{y:65,autoAlpha:0},{y:0,autoAlpha:1,duration:.44,ease:'sine.out'},.92);
+// The actual bars contract; the sheet stays intact, with no fold or logo morph.
+tl.to('#new-plan .plan-bar',{x:(i)=>-[0,219.96,513.24,1063.14][i]+i*80,scaleX:.3,duration:.4,stagger:.035,ease:'sine.inOut'},1.24);
+tl.set('#runway-dot,#runway-line',{autoAlpha:1},1.72);
+tl.to('#runway-line',{strokeDashoffset:0,duration:1,ease:'sine.inOut'},1.72);
+tl.to(travel,{p:1,duration:1,ease:'sine.inOut',onUpdate:positionDot},1.72);
+// One continuous camera curve has zero velocity at both ends, with no mid-flight gear change.
+tl.to('#fast-world',{x:-2540,y:0,scale:1,duration:1.02,ease:'sine.inOut'},1.72);
+tl.set('#new-plan',{autoAlpha:0},2.74);
+tl.fromTo('#price-copy',{y:40,autoAlpha:0},{y:0,autoAlpha:1,duration:.36,ease:'sine.out'},2.38);
+// Retract the incoming tail so the resting line shares the headline center and width.
+tl.to('#runway-dot',{scale:0,duration:.2,ease:'sine.inOut'},2.72);
+tl.to('#runway-line',{strokeDashoffset:-(runwayLength-1120),duration:.46,ease:'sine.inOut'},2.76);
+// The aligned line opens into ink. The overlap allowance is only for the exact white duplicate inside the opaque reveal mask; the two copies share every glyph position.
+tl.to('#runway-line',{stroke:'#202323',duration:.22,ease:'sine.inOut'},3.3);
+tl.to('#offer-close-ink',{clipPath:'polygon(0px 0px,1920px 0px,1920px 1080px,0px 1080px)',duration:.66,ease:'sine.inOut'},3.34);
+tl.fromTo('#offer-close-logo',{y:20,autoAlpha:0},{y:0,autoAlpha:1,duration:.36,ease:'sine.out'},3.64);
+window.__timelines["result"]=tl;</script></template></body></html>
