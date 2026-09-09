@@ -1,0 +1,31 @@
+{
+  "skill_name": "crator-hyperframes",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Plan a new 24-second faceless Hyperframes feature video for Crator about a small electronics distributor: bring in a stock CSV, configure replenishment, route a purchase order to the manager, and show the approved order. It will be watched on LinkedIn/X. We want it polished and visually interesting. The CTA is Start your free trial at cratorlabs.ai. No pricing or implementation-time claims are confirmed. Give a concrete timed direction with camera, object, color and handoff decisions plus a short verification plan. Do not generate a video or edit any project. Keep the answer under 700 words.",
+      "expected_output": "A fresh causal business story with useful native ERP views, varied smooth motion, feed readability and a coherent ending; no unconfirmed claims or mechanical reuse of furniture/Lovable/orbit.",
+      "files": [],
+      "assertions": [
+        "Tracks one identifiable item or order across multiple actions, ending in its changed native state.",
+        "Specifies at least three different scene actions or camera mechanisms rather than repeating one progress layout.",
+        "Names relevant inventory/replenishment and purchase-order UI, rather than a generic dashboard.",
+        "Includes a feed-size readability check and a check of changed scene boundaries.",
+        "Does not assert unconfirmed price/time claims or prescribe the old Lovable/furniture/orbit sequence."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Review this Crator Hyperframes edit concept and give concrete fixes, under 650 words. Current cut: every progress beat has a permanent top-left title, a big frontal UI card below, 0/3 changing to 3/3, and the same 0.5s zoom. Inventory, accounting and manufacturing all use the Sales Order page. The ERP word changes weight across the opening. A large Approved checkmark/text group is left aligned inside a centered 1520px container at top 317 on a 1920x1080 canvas. The final logo/CTA/URL is three widely separated blocks high on screen, and the incoming trial headline is reused on the last frame. The user says it still feels like a PPT, wants more visual interest, the Approved scene centered, and half a second less on the bill. They like the existing music and the composer. Explain what you would change and preserve, with concrete choreography and technical checks. Do not generate a video or edit project files.",
+      "expected_output": "Diagnosis of causal-story/composition issue rather than more effects; native module fixes, measured grouped centering, preserved composer/music, timing ripple and matched closing boundary.",
+      "files": [],
+      "assertions": [
+        "Replaces the repeated title/card/counter structure with a causal product sequence, preserving the liked composer and music.",
+        "Maps inventory, accounting and manufacturing to distinct relevant native ERP views.",
+        "Centers checkmark and Approved text as one group rather than merely centering its container.",
+        "Updates both the final CTA group and its incoming matched geometry to prevent a seam jump.",
+        "The half-second bill trim updates later starts, total duration, audio endpoint and continuity ledger rather than speeding every scene."
+      ]
+    }
+  ]
+}

@@ -53,3 +53,9 @@ The implementation estimate exits half a second earlier than v41. The Approved g
 Crator logos are supplied brand assets. Lovable's mark is sourced from SVGL. Module icons come from Frappe ERPNext desktop icons; the UI is an illustrative reconstruction using furniture-business demo records. The soundtrack is the user-selected **Get Down — Rex Banner**, with a one-second source offset, -3 dB gain and a closing fade. Third-party media, fonts and marks retain their respective rights; this repository does not assign them a new license.
 
 Hyperframes remains on 0.8.31 because the existing clip-visibility implementation failed validation under 0.8.33 during the original project. Validate before upgrading.
+
+## Reusable Crator video skill
+
+[`skills/crator-hyperframes/SKILL.md`](skills/crator-hyperframes/SKILL.md) captures the creative lessons from the launch-film iterations: connected product stories, camera choreography, native ERPNext UI, hierarchy, color, pacing and review. Its references distinguish lasting preferences from choices specific to this film and include actual accepted frames.
+
+Install the `skills/crator-hyperframes` folder into your agent's skill directory, then invoke `$crator-hyperframes` alongside Hyperframes. Local installation for this project is also available at `~/.agents/skills/crator-hyperframes` and linked from `~/.codex/skills/crator-hyperframes`. Keep installed copies in sync after changing the versioned skill.
